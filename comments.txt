@@ -1,0 +1,19 @@
+run server in terminal:
+    python -m server.server
+
+run client in terminal:
+    python -m client.main
+
+idoD1 password: d1
+idoD2 password: d2
+
+if used on another computer:
+    python -m venv venv
+    venv\Scripts\activate
+    pip install -r Requirements.txt
+
+    * to connect to server, change the host in client/main.py to the server's IP address.
+        to find the server's IP address, run `ipconfig` in the terminal and look for the IPv4 address.
+
+TODO: check if works with clients from different computers.
+TODO: check if the project is at student level.

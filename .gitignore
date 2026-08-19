@@ -1,0 +1,21 @@
+# --- User data / runtime-generated content - never commit ---
+server/cybercomm.db
+server/*.db
+client/downloads/*
+!client/downloads/.gitkeep
+client/voice_messages/*
+!client/voice_messages/.gitkeep
+
+# --- Python environment ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# --- IDE ---
+.idea/
+.vscode/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db

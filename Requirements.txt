@@ -1,0 +1,7 @@
+customtkinter>=5.2.0
+Pillow>=10.0.0
+opencv-python>=4.9.0.80
+aiortc>=1.9.0
+av>=11.0.0
+numpy>=1.26.0
+sounddevice>=0.4.6
